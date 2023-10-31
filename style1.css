@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    background-color: #111111;
+}
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: -1px 8px 16px -1px rgba(0,0,0,0.30);
+}
+.logo {
+    position: absolute;
+    left: 200px;
+    transform: translateY(-85px);
+}
+.navig ul{
+    list-style-type: none;
+    background-color: #212121;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navig a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 25px 45px 25px 45px;
+    text-align: center;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#contact {
+    margin-right: 75px;
+}
+.navig a:hover {
+    color: #cccbcb;
+}
+.navig a.active {
+    color: #18e8f7;
+}
+
+main {
+    padding: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+.contact-container {
+    border: transparent #e6e6e6;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 40%;
+    height: 80vh;
+    min-width: 400px;
+}
+.contact-container h3{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5px;
+}
+input[name="name"] {
+    margin-left: 20px;
+    width: 50vh;
+    height: 25px;
+}
+input[name="email"] {
+    margin-left: 20px;
+    width: 50vh;
+    height: 25px;
+}
+textarea[name="comments"] {
+    margin-left: 20px;
+    resize: none;
+    width: 50vh;
+}
+input[name="name"] {
+    font-family: 'Poppins', sans-serif;
+}
+input[name="email"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+textarea[name="comments"] {
+    font-family: 'Poppins', sans-serif;
+}
+.contact-container button {
+    display: flex;
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+.contact-container button:hover {
+    background-color: #cdcdcd;
+}
+
+.sosmed-container {
+    border: 2px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.sosmed h2{
+    margin: 7px 0 8px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.sosmed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.icons {
+    display: flex;
+    position: relative;
+}
+.icons i{
+    margin: 0px 10px 10px 10px;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    color: #000000;
+}
+.icons i:hover{
+    transform: translateY(-4px);
+    color: #cdcdcd;
+}
+
+.icons h2 {
+    display: none;
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    color: #660066;
+}
+#insta:hover #ig,
+#git:hover #gh,
+#linkedin:hover #ld {
+    display: block;
+}
+

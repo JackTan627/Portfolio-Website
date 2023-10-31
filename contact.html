@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JTann | About</title>
+        <link rel="icon" type="images/jpg" href="/Coding Project/Website Portfolio/Images/favicon.png">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Josefin+Sans:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7365c2ff79.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navig">
+                <img src="/Coding Project/Website Portfolio/Images/Logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active" id="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="contact-container">
+                <form action="https://formsubmit.co/jacksontan627@gmail.com" method="POST">
+                    <h3>Name:</h3>
+                    <input type="text" name="name" placeholder="Enter here.." required>
+                    
+                    <h3>Email:</h3>
+                    <input type="email" name="email" placeholder="Enter here.." required>
+                    
+                    <h3>Messages:</h3>
+                    <label for="comments"></label>
+                    <textarea id="comments" name="comments" rows="4" cols="60" placeholder="Enter here.."></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+
+                <div class="sosmed-container">
+                    <div class="sosmed">
+                        <h2>Social Media</h2>
+                            <div class="icons">
+                                <a href="https://www.instagram.com/j4ck_tan/" id="insta">
+                                    <i class="fa-brands fa-instagram fa-3x"></i>
+                                    <h2 id="ig" class="hidden">Instagram</h2>
+                                </a>
+
+                                <a href="https://github.com/twtzy" id="git">
+                                    <i class="fa-brands fa-github fa-3x"></i>
+                                    <h2 id="gh" class="hidden">GitHub</h2>
+                                </a>
+                                
+                                <a href="www.linkedin.com/in/jackson-tan-899099296" id="linkedin">
+                                    <i class="fa-brands fa-linkedin fa-3x"></i>
+                                    <h2 id="ld" class="hidden">Linkedin</h2>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

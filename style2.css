@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    background-color: #111111;
+}
+header {
+    width: 100%;
+    position: fixed;
+}
+.logo {
+    position: absolute;
+    left: 200px;
+    transform: translateY(-85px);
+}
+.navig ul{
+    list-style-type: none;
+    background-color: #212121;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10em;
+}
+.navig a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+#contact {
+    margin-right: 75px;
+}
+.navig a:hover {
+    color: #cccbcb;
+}
+.navig a.active {
+    color: rgb(24, 232, 247);
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 250px;
+}
+#face {
+    margin-top: 15em;
+    margin-left: 180px;
+    float: left;
+    margin-right: 75px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+.learn {
+    margin-top: 15em;
+}
+.learn p {
+    max-width: 30em;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    line-height: 1;
+}
+.learn button {
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.learn button:hover {
+    background-color: #dcdcdc;
+}
+
+#stat {
+    font-family: 'Poppins', sans-serif;
+    color: #f4fe8c;
+    font-weight: 700;
+    font-size: 4em;
+    margin: 0px;
+    line-height: 70px;
+}
+#name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+#name a {
+    color: rgb(24, 232, 247);
+}
+
+aside {
+    height: 30vh;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    padding: 10px;
+    margin-top: 174px;
+}
+
+.foot {
+    text-align: justify;
+    font-size: larger;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7em;
+    float: left;
+}
+.foot ul{
+    list-style-type: none;
+}
+.foot a{
+    text-decoration: none;
+    color: #000000;
+}
+.foot li{
+    margin-bottom: 2px;
+    justify-content: center;
+}
+.foot a:hover{
+    color: #cccbcb;
+    transition: 0.25s;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    float: left;
+    margin-top: 20px;
+}
+.foot-about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 17em; 
+    text-align: left;
+}
+.foot-about p {
+    line-height: 27px;
+    margin: 0;
+    align-items: center;
+}
+.foot-about h1 {
+    margin-top: 3.1em;
+    padding: 0;
+    margin-bottom: 2px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 1.5em;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.comment textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+input[type="text"], input[type="email"]  {
+    padding: 3px;
+    width: 46%;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+textarea#comments {
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+}
+.contact button{
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 50px;
+    font-family: 'Poppins', sans-serif;
+    animation-name: colorchange;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+.contact button:hover{
+    background-color: hsl(0, 0%, 85%);
+    animation-play-state: paused;
+}
+
+@keyframes colorchange {
+    0% {
+        border-color: rgba(255, 0, 0, 1); /* Red */
+    }
+    33% {
+        border-color: rgba(0, 0, 255, 1); /* Blue */
+    }
+    66% {
+        border-color: rgba(0, 255, 0, 1); /* Green */
+    }
+    100% {
+        border-color: rgba(255, 0, 0, 1); /* Red */
+    }
+}
