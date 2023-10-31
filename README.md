@@ -1,6 +1,6 @@
 # Portfolio-Website
 
-This portfolio website is my first website project. My goal in this project is to learn new things. Take notes that this website is unresponsive.
+This portfolio website is my first website project. My goal in this project is to learn new things. Please note that this website is not responsive.
 
 ## 👨‍💻 What I used for this website:
 - HTML
